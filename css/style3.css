@@ -1,0 +1,57 @@
+body {
+	background: url(../img/linedpaper.png)
+}
+
+
+.navbar {
+	width: 950px;
+	margin: 0 auto;
+	
+}
+
+.navbar-inner {
+	border-radius: 4px 4px 0px 0px;
+}
+
+.row-fluid{
+	width: 950px;
+	margin: 0 auto; 
+	padding-top: 0px;
+}
+
+.download-area img{
+	margin-left: 50px;
+	padding-top: 50px;
+}
+.download-area a {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.download-area2 img {
+	margin-left: 20px;
+	padding-top: 50px;
+	margin-right: 20px;
+}
+
+.download-area2 a {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+.btn{
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+#footer {
+	background: #F5F5F5;
+	height: 40px;
+}
+
+#footer p {
+	text-align: center;
+	padding-top: 10px;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Toy Story 3</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/style4.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/main.css" media="all" />
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/popover.js"></script>
+<script>
+	function menu (whichMenu,whatState){
+	if (document.getElementById)
+	{document.getElementById(whichMenu).style.visibility = whatState;}
+	 
+	else {document[whichMenu].visibility = whatState;}
+	 
+	}
+	function details(what){
+	myInfo={"google":"the best search engin on the web","yahoo":"this is too","about":"good place to visit"}
+	detailsBox.innerHTML=myInfo[what]
+	}
+	</script>
+</head>
+
+<body>
+	<div id="header" class="container">
+				<img src="img/ts3.gif" height="86px" width="100px" alt="" />
+	</div> <!-- end of header -->
+	
+	<div class="navbar">
+		<div class="navbar-inner">
+			<ul class="nav">
+				<li class="divider-vertical">
+					<li><a href="index.html">Home</a></li></li>
+				
+				<li><a href="About.html">About</a></li>
+				<li class="active"><a href="Castandcrew.html">Cast and Crew</a></li>
+				<li><a href="Download.html">Download</a></li>
+				<li><a href="Store.html">Store</a></li>
+			</ul>
+			
+	
+		</div><!-- end of navbar-inner-->
+	</div><!-- end of navbar-->
+
+	<div class="row">
+	<div class="line"><!--TESTING-2-->
+	<img src="img/images.jpg" alt="" />
+			<a href="javascript:showPopOver('pop1');"><b>Tom Hanks</b></a> as woody &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br><br>
+	
+    <div id="pop1" class="popover">
+	
+Born
+Thomas Jeffrey Hanks
+9 Jul 1956
+Concord, California, USA
+
+			<br><br>
+			<a href="javascript:closePopOver('pop1');">CLOSE (X)</a>
+		</div>
+	</div>
+	
+			
+	<div class="line"><!--TESTING-2-->
+	<img src="img/images3.jpg" alt="" />
+			<a href="javascript:showPopOver('pop3');"><b>Joan Cusack</b></a> as Jessie &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br><br>
+    <div id="pop3" class="popover">
+	
+
+Born
+Joan Mary Cusack
+11 Oct 1962
+New York City, New York, USA
+
+
+			<br><br>
+			<a href="javascript:closePopOver('pop3');">CLOSE (X)</a>
+		</div>
+	</div>
+		
+	<div class="line"><!--TESTING-2-->
+	<img src="img/images4.jpg" alt="" />
+			<a href="javascript:showPopOver('pop2');"><b>Micheal Keaton</b></a> as Ken &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<br><br>
+    <div id="pop2" class="popover">
+	
+Born
+Michael John Douglas
+5 Sep 1951
+Coraopolis, Pennsylvania, USA
+
+			<br><br>
+			<a href="javascript:closePopOver('pop2');">CLOSE (X)</a>
+		</div>
+	
+    <div class="line"><!--TESTING-2-->
+	<img src="img/images2.jpg" alt="" />
+			<a href="javascript:showPopOver('pop4');"><b>Tim Allen</b></a> 
+			as Buzz Lightyear &nbsp;&nbsp;
+			<br><br>
+    <div id="pop4" class="popover">
+Born
+Timothy Allen Dick
+13 Jun 1953
+Denver, Colorado, USA
+
+			<br><br>
+			<a href="javascript:closePopOver('pop4');">CLOSE (X)</a>
+		</div>	
+		
+	<div class="line"><!--TESTING-2-->
+	<img src="img/images5.jpg" alt="" />
+			<a href="javascript:showPopOver('pop5');"><b>Don Rickles</b></a> as Mr.Potato Head
+			<br><br>
+    <div id="pop5" class="popover">
+	
+Born
+Donald Jay Rickles
+8 May 1926
+New York City, New York, USA
+
+			<br><br>
+			<a href="javascript:closePopOver('pop5');">CLOSE (X)</a>
+		</div>
+		
+	<div class="line"><!--TESTING-2-->
+	<img src="img/images6.jpg" alt="" />
+			<a href="javascript:showPopOver('pop6');"><b>Ned Beatty</b></a> as Lotso
+			<br><br>
+    <div id="pop6" class="popover">
+	
+Born
+Ned Thomas Beatty
+6 Jul 1937
+Louisville, Kentucky, USA
+
+			<br><br>
+			<a href="javascript:closePopOver('pop6');">CLOSE (X)</a>
+		</div>	
+	</div><!--end of row -->
+				
+	
+	</div><!--end of row-->
+	
+		<div id="footer" class="container">
+	<p>Copyright &#169; All rights belong to their respective owners</p>
+	</div>
+</body>
+</html>
